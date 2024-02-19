@@ -33,7 +33,7 @@ class App extends React.Component {
             <button style={{ position: 'absolute', top: '300px', left: '300px' }} onClick={() => this.gotoPage('Attraktionen')}>
               <img src="attraktionen_button.png" alt="Attraktionen" style={{ width: '100px', height: '50px' }} />
             </button>
-            <button style={{ position: 'absolute', top: 'px', left: '600px' }} onClick={() => this.gotoPage('Touren')}>
+            <button style={{ position: 'absolute', top: '300px', left: '600px' }} onClick={() => this.gotoPage('Touren')}>
               <img src="touren_button.png" alt="Touren" style={{ width: '100px', height: '50px' }} />
             </button>
           </div>
